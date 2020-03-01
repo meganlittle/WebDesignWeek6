@@ -1,0 +1,121 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+#aboutUs{
+    text-align: center;
+}
+
+#bigPic{
+    width: 100%;
+}
+
+header{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+nav{
+    background-color: grey;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 1px;
+    border: 2px;
+}
+
+nav ul li:hover{
+    background-color: lightgreen;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+aside ul li{
+    list-style-type: none;
+}
+
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+aside{
+    border: 0.5px solid yellow;
+    width: 18.5%;
+    float: right;
+}
+
+aside ol li{
+    list-style-type: none;
+}
+
+aside ol li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.col_detail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.chefNames{
+    text-align: left;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 1px;
+    border: 2px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
